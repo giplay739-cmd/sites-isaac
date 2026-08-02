@@ -1,0 +1,188 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: white;
+    width: 100%;
+    height: 100%;
+
+
+    .title2 {
+        padding: 1vw;
+        display: flex;
+        gap: 40vw;
+
+        .iten-link {
+            text-decoration: none;
+            box-shadow: 2px 2px 3px;
+            border-radius: 3vw;
+            padding: 0.5vw;
+            font-size: 1.8vw;
+
+        }
+        .text-fabi{
+            font-size: 2vw;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+    }
+}
+
+/* sessao1 */
+
+section {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.sessao1 {
+    background-image: url(imagens/fabiana.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 70vw;
+    justify-content: center;
+    align-items: start;
+    padding: 3vw;
+
+    h1 {
+        font-size: 4vw;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        color: whitesmoke;
+        text-shadow: 2px 2px 4px black;
+        transition: 0.9s;
+    }
+
+    p {
+        height: 10vw;
+        color: whitesmoke;
+        text-shadow: 2px 2px 4px black;
+    }
+
+    a {
+        border-radius: 3vw;
+        color: whitesmoke;
+        width: 20vw;
+        height: 3vw;
+        text-align: justify;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        padding: 1vw;
+        font-size: 4vw;
+        text-decoration: none;
+        box-shadow: 2px 2px 3px black;
+        cursor: pointer;
+
+            transition: 0.3s ease;
+    }
+}
+
+/* sessao2 */
+
+.sessao2 {
+    height: 70vw;
+    align-items: center;
+}
+
+.card1 {
+    text-align: justify;
+    margin: 8vw;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 4vw;
+    color: aliceblue;
+    text-shadow: 2px 2px 4px black;
+
+}
+
+.titulo-catalogo {
+    text-align: center;
+    margin: 7vw;
+    border-radius: 3vw;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: aliceblue;
+    text-shadow: 2px 2px 4px black;
+    background-color: darkgray;
+    border-radius: 3vw;
+    box-shadow: 2px 2px 3px black;
+}
+
+.cards {
+    background-color: whitesmoke;
+    box-shadow: 2px 2px 3px;
+    border-radius: 3vw;
+    width: 80vw;
+    margin: 10vw;
+
+}
+
+/* sessao3 */
+.sessao3 {
+    height: 50vw;
+    background-color: darkgray;
+    align-items: center;
+}
+
+.cards_2 {
+    display: flex;
+    margin: 11vw;
+    padding: -5vw;
+    align-items: center;
+}
+
+
+.card01 {
+    padding: 10vw;
+    border-radius: 1vw;
+    height: 25vw;
+    margin: 2vw;
+    background-image: url(imagens/pés.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 20vw;
+
+        transition: 0.3s ease;
+}
+
+.card01:hover {
+    transform: scale(1.05);
+}
+.card2 {
+    padding: 10vw;
+    border-radius: 1vw;
+    height: 25vw;
+    margin: 2vw;
+    background-image: url(imagens/unhas.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 20vw;
+
+        transition: 0.3s ease;
+}
+
+.card2:hover {
+    transform: scale(1.05);
+}
+
+.card3 {
+    padding: 10vw;
+    border-radius: 1vw;
+    height: 25vw;
+    margin: 2vw;
+    background-image: url(imagens/sombrancelhas.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 30vw;
+
+        transition: 0.3s ease;
+}
+
+.card3:hover {
+    transform: scale(1.05);
+}
+h5{
+    background-color: darkgray;
+    color: aliceblue;
+    text-shadow: 2px 2px 4px black;
+}
